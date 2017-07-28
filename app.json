@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/welcome/welcome"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "喵两只",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/Images/title.jpg",
+        "selectedIconPath": "pages/Images/title.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/welcome/welcome",
+        "iconPath": "pages/Images/name.png",
+        "selectedIconPath": "pages/Images/name.png",
+        "text": "logs"
+      }
+    ]
+  }
+}
