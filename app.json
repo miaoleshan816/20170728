@@ -1,32 +1,30 @@
 {
-  "pages": [
+  "pages":[
+  
+    "pages/user/user",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/welcome/welcome"
+    "pages/details/details"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "喵两只",
-    "navigationBarTextStyle": "black"
-  },
+  "window":{
+     "backgroundTextStyle":"light",
+     "navigationBarBackgroundColor": "#3F51B5",
+     "navigationBarTitleText": "陆向谦头条",
+    "navigationBarTextStyle":"white"
+   },
   "tabBar": {
-    "color": "#dddddd",
-    "selectedColor": "#3cc51f",
-    "borderStyle": "black",
-    "backgroundColor": "#fff",
     "list": [
       {
+        "selectedIconPath": "images/index1.png",
+        "iconPath": "images/index.png",
         "pagePath": "pages/index/index",
-        "iconPath": "pages/Images/title.jpg",
-        "selectedIconPath": "pages/Images/title.jpg",
         "text": "首页"
       },
       {
-        "pagePath": "pages/welcome/welcome",
-        "iconPath": "pages/Images/name.png",
-        "selectedIconPath": "pages/Images/name.png",
-        "text": "logs"
+        "selectedIconPath": "images/user1.png",
+        "iconPath": "images/user.png",
+        "pagePath": "pages/user/user",
+        "text": "我"
       }
     ]
   }
